@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09ea1d33-3ea5-4997-bbff-6ec3b3680223" name="更改" comment="创建项目">
+    <list default="true" id="09ea1d33-3ea5-4997-bbff-6ec3b3680223" name="更改" comment="修改eslint版本">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,27 +12,39 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/backend/node_modules/.pnpm/@nestjs+common@11.1.9_class_24273c7aeae08e4aaec15afb2df5de7a/node_modules/@nestjs/common/interfaces/modules/dynamic-module.interface.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/backend/node_modules/.pnpm/@nestjs+config@4.0.2_@nestj_da401ac158088c6b30d38a6f48340a01/node_modules/@nestjs/config/dist/config.module.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/backend/node_modules/.pnpm/@nestjs+config@4.0.2_@nestj_da401ac158088c6b30d38a6f48340a01/node_modules/@nestjs/config/dist/interfaces/config-module-options.interface.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/backend/node_modules/.pnpm/@nestjs+jwt@11.0.2_@nestjs+_48cc6646ff60f82be952ce8bed7e0cf4/node_modules/@nestjs/jwt/dist/interfaces/jwt-module-options.interface.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/backend/node_modules/.pnpm/@nestjs+mongoose@11.0.4_@ne_3b41c735eb1aeff973fb59bf7fe4dcee/node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="36s0koVfDy3EN9QQ9HYV2ew6tFv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "js.linters.configure.manually.selectedeslint": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "",
+    "node.js.selected.package.eslint": "D:\\qianduan\\vue3projects\\nestjs-chat-copy\\backend\\node_modules\\eslint",
     "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "ts.external.directory.path": "D:\\qianduan\\vue3projects\\nestjs-chat-copy\\backend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -40,6 +52,8 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\qianduan\vue3projects\nestjs-chat-copy\backend\src\config\pipe" />
+      <recent name="D:\qianduan\vue3projects\nestjs-chat-copy\backend\src\config\guard" />
+      <recent name="D:\qianduan\vue3projects\nestjs-chat-copy\backend\src\config\filter" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
@@ -51,7 +65,8 @@
       <option name="presentableId" value="Default" />
       <updated>1765780117889</updated>
       <workItem from="1765780119126" duration="3653000" />
-      <workItem from="1765806947320" duration="2018000" />
+      <workItem from="1765806947320" duration="9254000" />
+      <workItem from="1765851329048" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1765780790059</created>
@@ -88,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1765807754771</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修改eslint版本">
+      <created>1765809231252</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765809231252</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,7 +128,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="创建项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建项目" />
+    <MESSAGE value="修改eslint版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改eslint版本" />
   </component>
 </project>
