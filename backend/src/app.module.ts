@@ -25,7 +25,10 @@ import { InterestsModule } from './interests/interests.module';
       useFactory:async(configService :ConfigService) => {
         const uri = configService.get<string>('MONGO_URI');
         if(!uri){
-          throw new Error('MONGO_URI is not defined in environment variables');
+          throw new Error('MONGO_URI is not defined in environment variables1');
+
+
+
         }
         return {
           uri,
